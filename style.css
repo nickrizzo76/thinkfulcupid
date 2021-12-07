@@ -6,7 +6,7 @@ body {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 46px;
   font-weight: 400;
   margin: 0 10px 15px 10px;
   text-align: center;
@@ -23,7 +23,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 60px;
 }
 
 section.alternate-background {
@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -40,6 +40,7 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .item {
@@ -61,7 +62,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 72px;
+  font-size: 102px;
   color: #ecdbc9;
 }
 
@@ -88,6 +89,9 @@ header nav ul li a:hover {
 
 /* -------  Join Form ------- */
 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 2px solid #6b1a22;
   padding: 10px;
 }
@@ -98,8 +102,9 @@ form label {
 
 form select,
 form input {
+  display: flex;
   margin-bottom: 20px;
-  width: 180px;
+  width: 300px;
 }
 
 form button {
