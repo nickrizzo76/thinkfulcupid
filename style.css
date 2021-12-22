@@ -1,3 +1,5 @@
+MY CURRENT CSS
+
 /* -------  General Styles ------- */
 
 body {
@@ -23,7 +25,7 @@ p {
 }
 
 section {
-  padding: 60px;
+  padding: 20px;
 }
 
 section.alternate-background {
@@ -40,16 +42,22 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 15px 15px 0px 15px;
 }
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 15px;
 }
 
 .item-double {
   flex: 2;
+}
+
+.form-pair {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* -------  Navigation ------- */
@@ -62,7 +70,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 102px;
+  font-size: 118px;
   color: #ecdbc9;
 }
 
@@ -89,30 +97,28 @@ header nav ul li a:hover {
 
 /* -------  Join Form ------- */
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid #6b1a22;
-  padding: 10px;
+  border: 3px solid #6b1a22;
+
 }
 
 form label {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 28px;
 }
 
 form select,
 form input {
-  display: flex;
   margin-bottom: 20px;
-  width: 300px;
+  width: 60%;
+  max-width: 500px;
 }
 
 form button {
   background-color: #83092e;
   border: none;
   color: #fff;
-  font-size: 24px;
-  padding: 15px;
+  font-size: 40px;
+  padding: 25px 20px 25px 20px;
   width: 100%;
 }
 
