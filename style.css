@@ -1,4 +1,7 @@
 /* -------  General Styles ------- */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -6,14 +9,14 @@ body {
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0 10px 15px 10px;
   text-align: center;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -56,14 +59,19 @@ main img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 /* -------  Navigation ------- */
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 10px 20px;
-  
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
 }
 
 .logo {
@@ -115,8 +123,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 60%;
-  max-width: 500px;
+  width: 250px;
 }
 
 form button {
@@ -141,7 +148,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px) {
+@media all and (min-width: 600px) {
   .logo {
     font-size: 48px;
     text-align: left;
