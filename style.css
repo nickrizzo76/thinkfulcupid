@@ -159,4 +159,8 @@ footer p {
     flex-direction: row;
   }
 
+  form label {
+    font-size: 22px;
+  }
+
 }
