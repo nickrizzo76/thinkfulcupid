@@ -48,7 +48,7 @@ main img {
 
 .item {
   flex: 1;
-  margin: 15px;
+  margin: 10px;
 }
 
 .item-double {
@@ -59,14 +59,13 @@ main img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 /* -------  Navigation ------- */
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 10px 20px;
   text-align: center;
 }
 
@@ -74,13 +73,12 @@ header {
   font-family: "Tangerine", cursive;
   font-size: 72px;
   color: #ecdbc9;
-  text-align: center;
 }
 
 header nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center
 }
 
 header nav ul li {
@@ -103,18 +101,22 @@ header nav ul li a:hover {
 /* -------  Join Form ------- */
 form {
   border: 3px solid #6b1a22;
-
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 form label {
   font-weight: bolder;
-  font-size: 28px;
+  
+  white-space: nowrap;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 250px;
+  margin-left: 20px;
+  width: 240px;
 }
 
 form button {
@@ -142,13 +144,12 @@ footer p {
 @media all and (min-width: 480px) {
   .logo {
     font-size: 48px;
-    text-align: left;
   }
 
   header {
-    margin: 0px;
-    padding: 0px;
-    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   header nav ul {
