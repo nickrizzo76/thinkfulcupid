@@ -78,17 +78,17 @@ header {
 header nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: center
+  justify-content: center;
 }
 
 header nav ul li {
   list-style-type: none;
+  padding: 0 30px 0 0;
 }
 
 header nav ul li a {
   color: #ecdbc9;
   text-decoration: none;
-  padding: 0 30px 0 0;
 }
 
 header nav ul li a:hover {
@@ -99,6 +99,7 @@ header nav ul li a:hover {
 
 
 /* -------  Join Form ------- */
+
 form {
   border: 3px solid #6b1a22;
   display: flex;
@@ -108,7 +109,6 @@ form {
 
 form label {
   font-weight: bolder;
-  
   white-space: nowrap;
 }
 
@@ -116,7 +116,7 @@ form select,
 form input {
   margin-bottom: 20px;
   margin-left: 20px;
-  width: 240px;
+  width: 170px;
 }
 
 form button {
@@ -162,6 +162,10 @@ footer p {
 
   form label {
     font-size: 22px;
+  }
+
+  .item {
+    margin: 10px;
   }
 
 }
